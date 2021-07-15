@@ -27,6 +27,14 @@
                 "Python",
                 "笔记"
             ]
+        },
+        {
+            "id": "https://lxyovo.top/2020-08-13-special",
+            "url": "https://lxyovo.top/2020-08-13-special",
+            "title": "Step.4 主题特殊功能",
+            "date_published": "2020-08-13T13:45:48.000Z",
+            "content_html": "<figure class=\"highlight java\"><figcaption data-lang=\"java\"><span>行高亮</span><span class=\"exturl\" data-url=\"aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=\">参考链接</span></figcaption><table><tr class=\"marked\"><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">import</span> <span class=\"token namespace\">java<span class=\"token punctuation\">.</span>util<span class=\"token punctuation\">.</span></span><span class=\"token class-name\">Scanner</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token punctuation\">.</span><span class=\"token punctuation\">.</span><span class=\"token punctuation\">.</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token class-name\">Scanner</span> in <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Scanner</span><span class=\"token punctuation\">(</span><span class=\"token class-name\">System</span><span class=\"token punctuation\">.</span>in<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre><span class=\"token comment\">// 输入 Scan 之后，按下键盘 Alt + “/” 键，Eclipse 下自动补全。</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre></pre></td></tr><tr class=\"marked\"><td data-num=\"6\"></td><td><pre><span class=\"token class-name\">System</span><span class=\"token punctuation\">.</span>out<span class=\"token punctuation\">.</span><span class=\"token function\">println</span><span class=\"token punctuation\">(</span>in<span class=\"token punctuation\">.</span><span class=\"token function\">nextLine</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr class=\"marked\"><td data-num=\"7\"></td><td><pre><span class=\"token class-name\">System</span><span class=\"token punctuation\">.</span>out<span class=\"token punctuation\">.</span><span class=\"token function\">println</span><span class=\"token punctuation\">(</span><span class=\"token string\">\"Hello\"</span> <span class=\"token operator\">+</span> <span class=\"token string\">\" world.\"</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr></table></figure>",
+            "tags": []
         }
     ]
 }
