@@ -8,491 +8,220 @@
     <author>
       <name>LXYOVO</name>
     </author>
-    <updated>2021-07-15T08:30:00.000Z</updated>
+    <updated>2018-07-24T15:31:06.000Z</updated>
     <entry>
-        <id>https://lxyovo.top/2021-07-15-02.Python</id>
-        <title>02-语言元素</title>
-        <link rel="alternate" href="https://lxyovo.top/2021-07-15-02.Python"/>
-        <content type="html">&lt;h4 id=&#34;指令和程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指令和程序&#34;&gt;#&lt;/a&gt; 指令和程序&lt;/h4&gt;
-&lt;p&gt;计算机的硬件系统通常由五大部件构成，包括：运算器、控制器、存储器、输入设备和输出设备。其中，运算器和控制器放在一起就是我们通常所说的中央处理器，它的功能是执行各种运算和控制指令以及处理计算机软件中的数据。我们通常所说的程序实际上就是指令的集合，我们程序就是将一系列的指令按照某种方式组织到一起，然后通过这些指令去控制计算机做我们想让它做的事情。今天我们大多数时候使用的计算机，虽然它们的元器件做工越来越精密，处理能力越来越强大，但究其本质来说仍然属于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU1JTg2JUFGJUMyJUI3JUU4JUFGJUJBJUU0JUJDJThBJUU2JTlCJUJDJUU3JUJCJTkzJUU2JTlFJTg0&#34;&gt; “冯・诺依曼结构”&lt;/span&gt; 的计算机。“冯・诺依曼结构” 有两个关键点，一是指出要将存储设备与中央处理器分开，二是提出了将数据以二进制方式编码。二进制是一种 “逢二进一” 的计数法，跟我们人类使用的 “逢十进一” 的计数法没有实质性的区别，人类因为有十根手指所以使用了十进制（因为在数数时十根手指用完之后就只能进位了，当然凡事都有例外，玛雅人可能是因为长年光着脚的原因把脚趾头也算上了，于是他们使用了二十进制的计数法，在这种计数法的指导下玛雅人的历法就与我们平常使用的历法不一样，而按照玛雅人的历法，2012 年是上一个所谓的 “太阳纪” 的最后一年，而 2013 年则是新的 “太阳纪” 的开始，后来这件事情被以讹传讹的方式误传为”2012 年是玛雅人预言的世界末日 “这种荒诞的说法，今天我们可以大胆的猜测，玛雅文明之所以发展缓慢估计也与使用了二十进制有关）。对于计算机来说，二进制在物理器件上来说是最容易实现的（高电压表示 1，低电压表示 0），于是在 “冯・诺依曼结构” 的计算机都使用了二进制。虽然我们并不需要每个程序员都能够使用二进制的思维方式来工作，但是了解二进制以及它与我们生活中的十进制之间的转换关系，以及二进制与八进制和十六进制的转换关系还是有必要的。如果你对这一点不熟悉，可以自行使用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU0JUJBJThDJUU4JUJGJTlCJUU1JTg4JUI2&#34;&gt;维基百科&lt;/span&gt;或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20=&#34;&gt;百度百科&lt;/span&gt;科普一下。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：近期关于&lt;strong&gt;量子计算机&lt;/strong&gt;的研究已经被推倒了风口浪尖，量子计算机基于量子力学进行运算，使用量子瞬移的方式来传递信息。2018 年 6 月，Intel 宣布开发出新款量子芯片并通过了在接近绝对零度环境下的测试；2019 年，IBM 和 Google 都推出了自己的量子计算机。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;变量和类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量和类型&#34;&gt;#&lt;/a&gt; 变量和类型&lt;/h3&gt;
-&lt;p&gt;在程序设计中，变量是一种存储数据的载体。计算机中的变量是实际存在的数据或者说是存储器中存储数据的一块内存空间，变量的值可以被读取和修改，这是所有计算和控制的基础。计算机能处理的数据有很多种类型，除了数值之外还可以处理文本、图形、音频、视频等各种各样的数据，那么不同的数据就需要定义不同的存储类型。Python 中的数据类型很多，而且也允许我们自定义新的数据类型（这一点在后面会讲到），我们先介绍几种常用的数据类型。&lt;/p&gt;
+        <id>https://lxyovo.top/2018-07-24-markdown</id>
+        <title>Markdown Style test</title>
+        <link rel="alternate" href="https://lxyovo.top/2018-07-24-markdown"/>
+        <content type="html">&lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;headers&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#headers&#34;&gt;#&lt;/a&gt; Headers&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; H1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;##&lt;/span&gt; H2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;###&lt;/span&gt; H3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;####&lt;/span&gt; H4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#####&lt;/span&gt; H5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;######&lt;/span&gt; H6&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Alternatively, for H1 and H2, an underline-ish style:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;Alt-H1&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;======&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;Alt-H2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;------&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;h1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h1&#34;&gt;#&lt;/a&gt; H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h2&#34;&gt;#&lt;/a&gt; H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h3&#34;&gt;#&lt;/a&gt; H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h4&#34;&gt;#&lt;/a&gt; H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h5&#34;&gt;#&lt;/a&gt; H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#h6&#34;&gt;#&lt;/a&gt; H6&lt;/h6&gt;
+&lt;p&gt;Alternatively, for H1 and H2, an underline-ish style:&lt;/p&gt;
+&lt;h1 id=&#34;alt-h1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#alt-h1&#34;&gt;#&lt;/a&gt; Alt-H1&lt;/h1&gt;
+&lt;h2 id=&#34;alt-h2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#alt-h2&#34;&gt;#&lt;/a&gt; Alt-H2&lt;/h2&gt;
+&lt;h2 id=&#34;emphasis&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#emphasis&#34;&gt;#&lt;/a&gt; Emphasis&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Emphasis, aka italics, with &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;asterisks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt; or &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;underscores&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Strong emphasis, aka bold, with &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;asterisks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;/span&gt; or &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;__&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;underscores&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;__&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Combined emphasis with &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;asterisks and &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;underscores&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;_&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Strikethrough uses two tildes. &lt;span class=&#34;token strike&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;~~&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;Scratch this.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;~~&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Strong emphasis, aka bold, with &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;strong&gt;underscores&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Strikethrough uses two tildes. &lt;s&gt;Scratch this.&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lists&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lists&#34;&gt;#&lt;/a&gt; Lists&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; First ordered list item&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; Another item&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token list punctuation&#34;&gt;*&lt;/span&gt; Unordered sub-list.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; Actual numbers don&#39;t matter, just that it&#39;s a number&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; Ordered sub-list&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;4.&lt;/span&gt; And another item.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&#39;ll use three here to also align the raw Markdown).&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   To have a line break without a paragraph, you will need to use two trailing spaces.  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   Note that this line is separate, but within the same paragraph.  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;*&lt;/span&gt; Unordered list can use asterisks&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Or minuses&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;+&lt;/span&gt; Or pluses&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Paragraph In unordered list&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  For example like this.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Common Paragraph with some text.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;And more text.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
+&lt;li&gt;First ordered list item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;整型：Python 中可以处理任意大小的整数（Python 2.x 中有 &lt;code&gt;int&lt;/code&gt;  和 &lt;code&gt;long&lt;/code&gt;  两种类型的整数，但这种区分对 Python 来说意义不大，因此在 Python 3.x 中整数只有 int 这一种了），而且支持二进制（如 &lt;code&gt;0b100&lt;/code&gt; ，换算成十进制是 4）、八进制（如 &lt;code&gt;0o100&lt;/code&gt; ，换算成十进制是 64）、十进制（ &lt;code&gt;100&lt;/code&gt; ）和十六进制（ &lt;code&gt;0x100&lt;/code&gt; ，换算成十进制是 256）的表示法。&lt;/li&gt;
-&lt;li&gt;浮点型：浮点数也就是小数，之所以称为浮点数，是因为按照科学记数法表示时，一个浮点数的小数点位置是可变的，浮点数除了数学写法（如 &lt;code&gt;123.456&lt;/code&gt; ）之外还支持科学计数法（如 &lt;code&gt;1.23456e2&lt;/code&gt; ）。&lt;/li&gt;
-&lt;li&gt;字符串型：字符串是以单引号或双引号括起来的任意文本，比如 &lt;code&gt;&#39;hello&#39;&lt;/code&gt;  和 &lt;code&gt;&amp;quot;hello&amp;quot;&lt;/code&gt; , 字符串还有原始字符串表示法、字节字符串表示法、Unicode 字符串表示法，而且可以书写成多行的形式（用三个单引号或三个双引号开头，三个单引号或三个双引号结尾）。&lt;/li&gt;
-&lt;li&gt;布尔型：布尔值只有 &lt;code&gt;True&lt;/code&gt; 、 &lt;code&gt;False&lt;/code&gt;  两种值，要么是 &lt;code&gt;True&lt;/code&gt; ，要么是 &lt;code&gt;False&lt;/code&gt; ，在 Python 中，可以直接用 &lt;code&gt;True&lt;/code&gt; 、 &lt;code&gt;False&lt;/code&gt;  表示布尔值（请注意大小写），也可以通过布尔运算计算出来（例如 &lt;code&gt;3 &amp;lt; 5&lt;/code&gt;  会产生布尔值 &lt;code&gt;True&lt;/code&gt; ，而 &lt;code&gt;2 == 1&lt;/code&gt;  会产生布尔值 &lt;code&gt;False&lt;/code&gt; ）。&lt;/li&gt;
-&lt;li&gt;复数型：形如 &lt;code&gt;3+5j&lt;/code&gt; ，跟数学上的复数表示一样，唯一不同的是虚部的 &lt;code&gt;i&lt;/code&gt;  换成了 &lt;code&gt;j&lt;/code&gt; 。实际上，这个类型并不常用，大家了解一下就可以了。&lt;/li&gt;
+&lt;li&gt;Unordered sub-list.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;变量命名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量命名&#34;&gt;#&lt;/a&gt; 变量命名&lt;/h4&gt;
-&lt;p&gt;对于每个变量我们需要给它取一个名字，就如同我们每个人都有属于自己的响亮的名字一样。在 Python 中，变量命名需要遵循以下这些必须遵守硬性规则和强烈建议遵守的非硬性规则。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;硬性规则：
-&lt;ul&gt;
-&lt;li&gt;变量名由字母（广义的 Unicode 字符，不包括特殊字符）、数字和下划线构成，数字不能开头。&lt;/li&gt;
-&lt;li&gt;大小写敏感（大写的 &lt;code&gt;a&lt;/code&gt;  和小写的 &lt;code&gt;A&lt;/code&gt;  是两个不同的变量）。&lt;/li&gt;
-&lt;li&gt;不要跟关键字（有特殊含义的单词，后面会讲到）和系统保留字（如函数、模块等的名字）冲突。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Actual numbers don&#39;t matter, just that it&#39;s a number&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;PEP 8 要求：
+&lt;li&gt;
+&lt;p&gt;Ordered sub-list&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And another item.&lt;/p&gt;
+&lt;p&gt;You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&#39;ll use three here to also align the raw Markdown).&lt;/p&gt;
+&lt;p&gt;To have a line break without a paragraph, you will need to use two trailing spaces.&lt;br /&gt;
+Note that this line is separate, but within the same paragraph.&lt;br /&gt;
+(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;用小写字母拼写，多个单词用下划线连接。&lt;/li&gt;
-&lt;li&gt;受保护的实例属性用单个下划线开头（后面会讲到）。&lt;/li&gt;
-&lt;li&gt;私有的实例属性用两个下划线开头（后面会讲到）。&lt;/li&gt;
+&lt;li&gt;Unordered list can use asterisks&lt;/li&gt;
 &lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Or minuses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Or pluses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Paragraph In unordered list&lt;/p&gt;
+&lt;p&gt;For example like this.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;当然，作为一个专业的程序员，给变量（事实上应该是所有的标识符）命名时做到见名知意也是非常重要的。&lt;/p&gt;
-&lt;h4 id=&#34;变量的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量的使用&#34;&gt;#&lt;/a&gt; 变量的使用&lt;/h4&gt;
-&lt;p&gt;下面通过几个例子来说明变量的类型和变量使用。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-使用变量保存数据并进行加减乘除运算
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-a = 321
-b = 12
-print(a + b)    # 333
-print(a - b)    # 309
-print(a * b)    # 3852
-print(a / b)    # 26.75
+&lt;p&gt;Common Paragraph with some text.&lt;br /&gt;
+And more text.&lt;/p&gt;
+&lt;h2 id=&#34;inline-html&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#inline-html&#34;&gt;#&lt;/a&gt; Inline HTML&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;To reboot your computer, press &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;ctrl&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;+&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;alt&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;+&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;del&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;kbd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&amp;lt;p&amp;gt;To reboot your computer, press &amp;lt;kbd&amp;gt;ctrl&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;alt&amp;lt;/kbd&amp;gt;+&amp;lt;kbd&amp;gt;del&amp;lt;/kbd&amp;gt;.&amp;lt;/p&amp;gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dl&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Definition list&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Is something people use sometimes.&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token code keyword&#34;&gt;    &amp;lt;dt&gt;Markdown in HTML&amp;lt;/dt&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &amp;lt;dd&gt;Does *not* work **very** well. Use HTML &amp;lt;em&gt;tags&amp;lt;/em&gt;.&amp;lt;/dd&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dl&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&amp;lt;dl&amp;gt;&lt;br /&gt;
+&amp;lt;dt&amp;gt;Definition list&amp;lt;/dt&amp;gt;&lt;br /&gt;
+&amp;lt;dd&amp;gt;Is something people use sometimes.&amp;lt;/dd&amp;gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;dt&amp;gt;Markdown in HTML&amp;lt;/dt&amp;gt;
+&amp;lt;dd&amp;gt;Does *not* work **very** well. Use HTML &amp;lt;em&amp;gt;tags&amp;lt;/em&amp;gt;.&amp;lt;/dd&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;在 Python 中可以使用 &lt;code&gt;type&lt;/code&gt;  函数对变量的类型进行检查。程序设计中函数的概念跟数学上函数的概念是一致的，数学上的函数相信大家并不陌生，它包括了函数名、自变量和因变量。如果暂时不理解这个概念也不要紧，我们会在后续的章节中专门讲解函数的定义和使用。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-使用type()检查变量的类型
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-a = 100
-b = 12.345
-c = 1 + 5j
-d = &#39;hello, world&#39;
-e = True
-print(type(a))    # &amp;lt;class &#39;int&#39;&amp;gt;
-print(type(b))    # &amp;lt;class &#39;float&#39;&amp;gt;
-print(type(c))    # &amp;lt;class &#39;complex&#39;&amp;gt;
-print(type(d))    # &amp;lt;class &#39;str&#39;&amp;gt;
-print(type(e))    # &amp;lt;class &#39;bool&#39;&amp;gt;
+&lt;p&gt;&amp;lt;/dl&amp;gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#links&#34;&gt;#&lt;/a&gt; Links&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m an inline-style link&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://www.google.com&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m an inline-style link with title&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://www.google.com&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Google&#39;s Homepage&#34;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m a reference-style link&lt;/span&gt;][&lt;span class=&#34;token variable&#34;&gt;Arbitrary case-insensitive reference text&lt;/span&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;I&#39;m a relative reference to a repository file&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;../blob/master/LICENSE&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;You can use numbers for reference-style link definitions&lt;/span&gt;][&lt;span class=&#34;token variable&#34;&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Or leave it empty and use the [link text itself]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Some text to show that the reference links can follow later.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;arbitrary case-insensitive reference text&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io/docs/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;link text itself&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io/api/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==&#34;&gt;I&#39;m an inline-style link&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==&#34;&gt;I&#39;m an inline-style link with title&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlv&#34;&gt;I&#39;m a reference-style link&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../blob/master/LICENSE&#34;&gt;I&#39;m a relative reference to a repository file&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;You can use numbers for reference-style link definitions&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Or leave it empty and use the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2FwaS8=&#34;&gt;link text itself&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Some text to show that the reference links can follow later.&lt;/p&gt;
+&lt;h2 id=&#34;images&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#images&#34;&gt;#&lt;/a&gt; Images&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hover to see the title text:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Inline-style:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;[&lt;span class=&#34;token content&#34;&gt;alt text&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://hexo.io/icon/favicon-196x196.png&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Logo Title Text 1&#34;&lt;/span&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Reference-style:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;[&lt;span class=&#34;token content&#34;&gt;alt text&lt;/span&gt;][&lt;span class=&#34;token variable&#34;&gt;logo&lt;/span&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url-reference url&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;logo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https://hexo.io/icon/favicon-196x196.png &lt;span class=&#34;token string&#34;&gt;&#34;Logo Title Text 2&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;hover to see the title text:&lt;/p&gt;
+&lt;p&gt;Inline-style:&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://hexo.io/icon/favicon-196x196.png&#34; alt=&#34;alt text&#34; title=&#34;Logo Title Text 1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Reference-style:&lt;br /&gt;
+&lt;img data-src=&#34;https://hexo.io/icon/favicon-196x196.png&#34; alt=&#34;alt text&#34; title=&#34;Logo Title Text 2&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-and-syntax-highlighting&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#code-and-syntax-highlighting&#34;&gt;#&lt;/a&gt; Code and Syntax Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline  &lt;code&gt;code&lt;/code&gt;  has  &lt;code&gt;back-ticks around&lt;/code&gt;  it.&lt;/p&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;JavaScript syntax highlighting&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Python syntax highlighting&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt; s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;pre&gt;&lt;code&gt;No language indicated, so no syntax highlighting.
+But let&#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;可以使用 Python 中内置的函数对变量类型进行转换。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;int()&lt;/code&gt; ：将一个数值或字符串转换成整数，可以指定进制。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;float()&lt;/code&gt; ：将一个字符串转换成浮点数。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;str()&lt;/code&gt; ：将指定的对象转换成字符串形式，可以指定编码。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;chr()&lt;/code&gt; ：将整数转换成该编码对应的字符串（一个字符）。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ord()&lt;/code&gt; ：将字符串（一个字符）转换成对应的编码（整数）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;下面的代码通过键盘输入两个整数来实现对两个整数的算术运算。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-使用input()函数获取键盘输入(字符串)
-使用int()函数将输入的字符串转换成整数
-使用print()函数输出带占位符的字符串
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-a = int(input(&#39;a = &#39;))
-b = int(input(&#39;b = &#39;))
-print(&#39;%d + %d = %d&#39; % (a, b, a + b))
-print(&#39;%d - %d = %d&#39; % (a, b, a - b))
-print(&#39;%d * %d = %d&#39; % (a, b, a * b))
-print(&#39;%d / %d = %f&#39; % (a, b, a / b))
-print(&#39;%d // %d = %d&#39; % (a, b, a // b))
-print(&#39;%d %% %d = %d&#39; % (a, b, a % b))
-print(&#39;%d ** %d = %d&#39; % (a, b, a ** b))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：上面的 print 函数中输出的字符串使用了占位符语法，其中 &lt;code&gt;%d&lt;/code&gt;  是整数的占位符， &lt;code&gt;%f&lt;/code&gt;  是小数的占位符， &lt;code&gt;%%&lt;/code&gt;  表示百分号（因为百分号代表了占位符，所以带占位符的字符串中要表示百分号必须写成 &lt;code&gt;%%&lt;/code&gt; ），字符串之后的 &lt;code&gt;%&lt;/code&gt;  后面跟的变量值会替换掉占位符然后输出到终端中，运行上面的程序，看看程序执行结果就明白啦。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算符&#34;&gt;#&lt;/a&gt; 运算符&lt;/h3&gt;
-&lt;p&gt;Python 支持多种运算符，下表大致按照优先级从高到低的顺序列出了所有的运算符，运算符的优先级指的是多个运算符同时出现时，先做什么运算然后再做什么运算。除了我们之前已经用过的赋值运算符和算术运算符，我们稍后会陆续讲到其他运算符的使用。&lt;/p&gt;
-&lt;table&gt;
+&lt;h2 id=&#34;tables&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tables&#34;&gt;#&lt;/a&gt; Tables&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table&#34;&gt;&lt;span class=&#34;token table-header-row&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt;                &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt;ASCII                          &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt;HTML                         &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-line&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;----------------&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-------------------------------&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-----------------------------&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-data-rows&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;Single backticks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token code-snippet code keyword&#34;&gt;`&#39;Isn&#39;t this fun?&#39;`&lt;/span&gt;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&#39;Isn&#39;t this fun?&#39;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;Quotes          &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token code-snippet code keyword&#34;&gt;`&#34;Isn&#39;t this fun?&#34;`&lt;/span&gt;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&#34;Isn&#39;t this fun?&#34;            &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;Dashes          &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token code-snippet code keyword&#34;&gt;`-- is en-dash, --- is em-dash`&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;-- is en-dash, --- is em-dash&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;运算符&lt;/th&gt;
-&lt;th&gt;描述&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;ASCII&lt;/th&gt;
+&lt;th&gt;HTML&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;[]&lt;/code&gt;   &lt;code&gt;[:]&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;下标，切片&lt;/td&gt;
+&lt;td&gt;Single backticks&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&#39;Isn&#39;t this fun?&#39;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&#39;Isn&#39;t this fun?&#39;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;**&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;指数&lt;/td&gt;
+&lt;td&gt;Quotes&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;quot;Isn&#39;t this fun?&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&amp;quot;Isn&#39;t this fun?&amp;quot;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;~&lt;/code&gt;   &lt;code&gt;+&lt;/code&gt;   &lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;按位取反，正负号&lt;/td&gt;
+&lt;td&gt;Dashes&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;-- is en-dash, --- is em-dash&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;-- is en-dash, --- is em-dash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Colons can be used to align columns.&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table&#34;&gt;&lt;span class=&#34;token table-header-row&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Tables        &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Are           &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Cool  &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-line&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;-------------&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:-------------:&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;-----:&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-data-rows&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; col 3 is      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; right-aligned &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; col 2 is      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; centered      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; zebra stripes &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; are neat      &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tables&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Are&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;col 3 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;right-aligned&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;*&lt;/code&gt;   &lt;code&gt;/&lt;/code&gt;   &lt;code&gt;%&lt;/code&gt;   &lt;code&gt;//&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;乘，除，模，整除&lt;/td&gt;
+&lt;td&gt;col 2 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;centered&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;+&lt;/code&gt;   &lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;加，减&lt;/td&gt;
+&lt;td&gt;zebra stripes&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;are neat&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;The outer pipes (&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;) are optional, and you don&#39;t need to make the raw Markdown line up prettily. You can also use inline Markdown.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table&#34;&gt;&lt;span class=&#34;token table-header-row&#34;&gt;&lt;span class=&#34;token table-header important&#34;&gt;Markdown &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Less &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-header important&#34;&gt; Pretty&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-line&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/span&gt;&lt;span class=&#34;token table-data-rows&#34;&gt;&lt;span class=&#34;token table-data&#34;&gt;&lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;Still&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; &lt;span class=&#34;token code-snippet code keyword&#34;&gt;`renders`&lt;/span&gt; &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; &lt;span class=&#34;token bold&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;nicely&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;**&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token table-data&#34;&gt;1 &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; 2 &lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token table-data&#34;&gt; 3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Markdown&lt;/th&gt;
+&lt;th&gt;Less&lt;/th&gt;
+&lt;th&gt;Pretty&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Still&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;renders&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;nicely&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;   &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;右移，左移&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;&amp;amp;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;按位与&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;^&lt;/code&gt;   &lt;code&gt;\|&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;按位异或，按位或&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt;   &lt;code&gt;&amp;lt;&lt;/code&gt;   &lt;code&gt;&amp;gt;&lt;/code&gt;   &lt;code&gt;&amp;gt;=&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;小于等于，小于，大于，大于等于&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;==&lt;/code&gt;   &lt;code&gt;!=&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;等于，不等于&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;is&lt;/code&gt;    &lt;code&gt;is not&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;身份运算符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;in&lt;/code&gt;   &lt;code&gt;not in&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;成员运算符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;not&lt;/code&gt;   &lt;code&gt;or&lt;/code&gt;   &lt;code&gt;and&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;逻辑运算符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;=&lt;/code&gt;   &lt;code&gt;+=&lt;/code&gt;   &lt;code&gt;-=&lt;/code&gt;   &lt;code&gt;*=&lt;/code&gt;   &lt;code&gt;/=&lt;/code&gt;   &lt;code&gt;%=&lt;/code&gt;   &lt;code&gt;//=&lt;/code&gt;   &lt;code&gt;**=&lt;/code&gt;   &lt;code&gt;&amp;amp;=&lt;/code&gt;   &lt;code&gt;|=&lt;/code&gt;   &lt;code&gt;^=&lt;/code&gt;   &lt;code&gt;&amp;gt;&amp;gt;=&lt;/code&gt;   &lt;code&gt;&amp;lt;&amp;lt;=&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;（复合）赋值运算符&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt; 在实际开发中，如果搞不清楚运算符的优先级，可以使用括号来确保运算的执行顺序。&lt;/p&gt;
+&lt;p&gt;You can find more information about &lt;strong&gt;LaTeX&lt;/strong&gt; mathematical expressions &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXRoLm1ldGEuc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzUwMjAvbWF0aGpheC1iYXNpYy10dXRvcmlhbC1hbmQtcXVpY2stcmVmZXJlbmNl&#34;&gt;here&lt;/span&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;赋值运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#赋值运算符&#34;&gt;#&lt;/a&gt; 赋值运算符&lt;/h4&gt;
-&lt;p&gt;赋值运算符应该是最为常见的运算符，它的作用是将右边的值赋给左边的变量。下面的例子演示了赋值运算符和复合赋值运算符的使用。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-赋值运算符和复合赋值运算符
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-a = 10
-b = 3
-a += b        # 相当于：a = a + b
-a *= a + 2    # 相当于：a = a * (a + 2)
-print(a)      # 算一下这里会输出什么
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;比较运算符和逻辑运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#比较运算符和逻辑运算符&#34;&gt;#&lt;/a&gt; 比较运算符和逻辑运算符&lt;/h3&gt;
-&lt;p&gt;比较运算符有的地方也称为关系运算符，包括 &lt;code&gt;==&lt;/code&gt; 、 &lt;code&gt;!=&lt;/code&gt; 、 &lt;code&gt;&amp;lt;&lt;/code&gt; 、 &lt;code&gt;&amp;gt;&lt;/code&gt; 、 &lt;code&gt;&amp;lt;=&lt;/code&gt; 、 &lt;code&gt;&amp;gt;=&lt;/code&gt; ，我相信没有什么好解释的，大家一看就能懂，唯一需要提醒的是比较相等用的是 &lt;code&gt;==&lt;/code&gt; ，请注意这个地方是两个等号，因为 &lt;code&gt;=&lt;/code&gt;  是赋值运算符，我们在上面刚刚讲到过， &lt;code&gt;==&lt;/code&gt;  才是比较相等的比较运算符。比较运算符会产生布尔值，要么是 &lt;code&gt;True&lt;/code&gt;  要么是 &lt;code&gt;False&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;逻辑运算符有三个，分别是 &lt;code&gt;and&lt;/code&gt; 、 &lt;code&gt;or&lt;/code&gt;  和 &lt;code&gt;not&lt;/code&gt; 。 &lt;code&gt;and&lt;/code&gt;  字面意思是 “而且”，所以 &lt;code&gt;and&lt;/code&gt;  运算符会连接两个布尔值，如果两个布尔值都是 &lt;code&gt;True&lt;/code&gt; ，那么运算的结果就是 &lt;code&gt;True&lt;/code&gt; ；左右两边的布尔值有一个是 &lt;code&gt;False&lt;/code&gt; ，最终的运算结果就是 &lt;code&gt;False&lt;/code&gt; 。相信大家已经想到了，如果 &lt;code&gt;and&lt;/code&gt;  左边的布尔值是 &lt;code&gt;False&lt;/code&gt; ，不管右边的布尔值是什么，最终的结果都是 &lt;code&gt;False&lt;/code&gt; ，所以在做运算的时候右边的值会被跳过（短路处理），这也就意味着在 &lt;code&gt;and&lt;/code&gt;  运算符左边为 &lt;code&gt;False&lt;/code&gt;  的情况下，右边的表达式根本不会执行。 &lt;code&gt;or&lt;/code&gt;  字面意思是 “或者”，所以 &lt;code&gt;or&lt;/code&gt;  运算符也会连接两个布尔值，如果两个布尔值有任意一个是 &lt;code&gt;True&lt;/code&gt; ，那么最终的结果就是 &lt;code&gt;True&lt;/code&gt; 。当然， &lt;code&gt;or&lt;/code&gt;  运算符也是有短路功能的，在它左边的布尔值为 &lt;code&gt;True&lt;/code&gt;  的情况下，右边的表达式根本不会执行。 &lt;code&gt;not&lt;/code&gt;  运算符的后面会跟上一个布尔值，它的作用是得到与该布尔值相反的值，也就是说，后面的布尔值如果是 &lt;code&gt;True&lt;/code&gt;  运算结果就是 &lt;code&gt;False&lt;/code&gt; ，而后面的布尔值如果是 &lt;code&gt;False&lt;/code&gt;  则运算结果就是 &lt;code&gt;True&lt;/code&gt; 。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-比较运算符和逻辑运算符的使用
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-flag0 = 1 == 1
-flag1 = 3 &amp;gt; 2
-flag2 = 2 &amp;lt; 1
-flag3 = flag1 and flag2
-flag4 = flag1 or flag2
-flag5 = not (1 != 2)
-print(&#39;flag0 =&#39;, flag0)    # flag0 = True
-print(&#39;flag1 =&#39;, flag1)    # flag1 = True
-print(&#39;flag2 =&#39;, flag2)    # flag2 = False
-print(&#39;flag3 =&#39;, flag3)    # flag3 = False
-print(&#39;flag4 =&#39;, flag4)    # flag4 = True
-print(&#39;flag5 =&#39;, flag5)    # flag5 = False
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#blockquotes&#34;&gt;#&lt;/a&gt; Blockquotes&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：比较运算符的优先级高于赋值运算符，所以 &lt;code&gt;flag0 = 1 == 1&lt;/code&gt;  先做 &lt;code&gt;1 == 1&lt;/code&gt;  产生布尔值 &lt;code&gt;True&lt;/code&gt; ，再将这个值赋值给变量 &lt;code&gt;flag0&lt;/code&gt; 。 &lt;code&gt;print&lt;/code&gt;  函数可以输出多个值，多个值之间可以用 &lt;code&gt;,&lt;/code&gt;  进行分隔，输出的内容之间默认以空格分开。&lt;/p&gt;
+&lt;p&gt;Blockquotes are very handy in email to emulate reply text.&lt;br /&gt;
+This line is part of the same quote.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;练习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习&#34;&gt;#&lt;/a&gt; 练习&lt;/h3&gt;
-&lt;h4 id=&#34;练习1华氏温度转换为摄氏温度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习1华氏温度转换为摄氏温度&#34;&gt;#&lt;/a&gt; 练习 1：华氏温度转换为摄氏温度。&lt;/h4&gt;
+&lt;p&gt;Quote break.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;提示：华氏温度到摄氏温度的转换公式为：&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;32&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;÷&lt;/mo&gt;&lt;mn&gt;1.8&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;C=(F - 32) \div 1.8&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07153em;&#34;&gt;C&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;÷&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;This is a very long line that will still be quoted properly when it wraps. Oh boy let&#39;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em&gt;put&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt; into a blockquote.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;参考答案：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-将华氏温度转换为摄氏温度
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-f = float(input(&#39;请输入华氏温度: &#39;))
-c = (f - 32) / 1.8
-print(&#39;%.1f华氏度 = %.1f摄氏度&#39; % (f, c))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：在使用 &lt;code&gt;print&lt;/code&gt;  函数输出时，也可以对字符串内容进行格式化处理，上面 &lt;code&gt;print&lt;/code&gt;  函数中的字符串 &lt;code&gt;%1.f&lt;/code&gt;  是一个占位符，稍后会由一个 &lt;code&gt;float&lt;/code&gt;  类型的变量值替换掉它。同理，如果字符串中有 &lt;code&gt;%d&lt;/code&gt; ，后面可以用一个 &lt;code&gt;int&lt;/code&gt;  类型的变量值替换掉它，而 &lt;code&gt;%s&lt;/code&gt;  会被字符串的值替换掉。除了这种格式化字符串的方式外，还可以用下面的方式来格式化字符串，其中 &lt;code&gt;&amp;#123;f:.1f&amp;#125;&lt;/code&gt;  和 &lt;code&gt;&amp;#123;c:.1f&amp;#125;&lt;/code&gt;  可以先看成是 &lt;code&gt;&amp;#123;f&amp;#125;&lt;/code&gt;  和 &lt;code&gt;&amp;#123;c&amp;#125;&lt;/code&gt; ，表示输出时会用变量 &lt;code&gt;f&lt;/code&gt;  和变量 &lt;code&gt;c&lt;/code&gt;  的值替换掉这两个占位符，后面的 &lt;code&gt;:.1f&lt;/code&gt;  表示这是一个浮点数，小数点后保留 1 位有效数字。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;print(f&#39;&amp;#123;f:.1f&amp;#125;华氏度 = &amp;#123;c:.1f&amp;#125;摄氏度&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;练习2输入圆的半径计算计算周长和面积&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习2输入圆的半径计算计算周长和面积&#34;&gt;#&lt;/a&gt; 练习 2：输入圆的半径计算计算周长和面积。&lt;/h4&gt;
-&lt;p&gt;参考答案：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-输入半径计算圆的周长和面积
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-radius = float(input(&#39;请输入圆的半径: &#39;))
-perimeter = 2 * 3.1416 * radius
-area = 3.1416 * radius * radius
-print(&#39;周长: %.2f&#39; % perimeter)
-print(&#39;面积: %.2f&#39; % area)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;练习3输入年份判断是不是闰年&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习3输入年份判断是不是闰年&#34;&gt;#&lt;/a&gt; 练习 3：输入年份判断是不是闰年。&lt;/h4&gt;
-&lt;p&gt;参考答案：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-输入年份 如果是闰年输出True 否则输出False
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-year = int(input(&#39;请输入年份: &#39;))
-# 如果代码太长写成一行不便于阅读 可以使用\对代码进行折行
-is_leap = year % 4 == 0 and year % 100 != 0 or \
-          year % 400 == 0
-print(is_leap)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：比较运算符会产生布尔值，而逻辑运算符 &lt;code&gt;and&lt;/code&gt;  和 &lt;code&gt;or&lt;/code&gt;  会对这些布尔值进行组合，最终也是得到一个布尔值，闰年输出 &lt;code&gt;True&lt;/code&gt; ，平年输出 &lt;code&gt;False&lt;/code&gt; 。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&#34;horizontal-rule&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#horizontal-rule&#34;&gt;#&lt;/a&gt; Horizontal Rule&lt;/h2&gt;
+&lt;p&gt;Three or more...&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token hr punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hyphens&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token hr punctuation&#34;&gt;***&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Asterisks&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;___&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Underscores&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;p&gt;Hyphens&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Asterisks&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Underscores&lt;/p&gt;
+&lt;h2 id=&#34;line-breaks&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#line-breaks&#34;&gt;#&lt;/a&gt; Line Breaks&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Here&#39;s a line for us to start with.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This line is separated from the one above by two newlines, so it will be a &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;separate paragraph&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This line is also a separate paragraph, but...&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This line is only separated by a single newline, so it&#39;s a separate line in the &lt;span class=&#34;token italic&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token content&#34;&gt;same paragraph&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;*&lt;/span&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Here&#39;s a line for us to start with.&lt;/p&gt;
+&lt;p&gt;This line is separated from the one above by two newlines, so it will be a &lt;em&gt;separate paragraph&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This line is also a separate paragraph, but...&lt;br /&gt;
+This line is only separated by a single newline, so it&#39;s a separate line in the &lt;em&gt;same paragraph&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This is a regular paragraph.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;table&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;td&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Foo&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;td&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;tr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;table&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This is another regular paragraph.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;This is a regular paragraph.&lt;/p&gt;
+&lt;p&gt;&amp;lt;table&amp;gt;&lt;br /&gt;
+&amp;lt;tr&amp;gt;&lt;br /&gt;
+&amp;lt;td&amp;gt;Foo&amp;lt;/td&amp;gt;&lt;br /&gt;
+&amp;lt;/tr&amp;gt;&lt;br /&gt;
+&amp;lt;/table&amp;gt;&lt;/p&gt;
+&lt;p&gt;This is another regular paragraph.&lt;/p&gt;
+&lt;h2 id=&#34;youtube-videos&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#youtube-videos&#34;&gt;#&lt;/a&gt; Youtube videos&lt;/h2&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=ARted4RniaU&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;target&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;_blank&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token attr-name&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;IMAGE ALT TEXT HERE&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;240&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;180&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;border&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;10&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Pure markdown version:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token url&#34;&gt;[&lt;span class=&#34;token content&#34;&gt;![IMAGE ALT TEXT HERE&lt;/span&gt;](&lt;span class=&#34;token url&#34;&gt;https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;/span&gt;)&lt;/span&gt;](https://www.youtube.com/watch?v=ARted4RniaU)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&amp;lt;a href=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/ZmVhdHVyZT1wbGF5ZXJfZW1iZWRkZWQmYW1wO3Y9QVJ0ZWQ0Um5pYVU=&#34;&gt;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=ARted4RniaU&lt;/span&gt;&lt;br /&gt;
+&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcueW91dHViZS5jb20vdmkvQVJ0ZWQ0Um5pYVUvMC5qcGc=&#34;&gt;https://img.youtube.com/vi/ARted4RniaU/0.jpg&lt;/span&gt;&amp;quot;&lt;br /&gt;
+alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;180&amp;quot; border=&amp;quot;10&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;Pure markdown version:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ARted4RniaU&#34;&gt;&lt;img data-src=&#34;https://img.youtube.com/vi/ARted4RniaU/0.jpg&#34; alt=&#34;IMAGE ALT TEXT HERE&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
-        <category term="Python" scheme="https://lxyovo.top/tags/Python/" />
-        <category term="笔记" scheme="https://lxyovo.top/tags/%E7%AC%94%E8%AE%B0/" />
-        <updated>2021-07-15T08:30:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://lxyovo.top/2021-07-15-01.Python</id>
-        <title>01-初识Python</title>
-        <link rel="alternate" href="https://lxyovo.top/2021-07-15-01.Python"/>
-        <content type="html">&lt;h3 id=&#34;python简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python简介&#34;&gt;#&lt;/a&gt; Python 简介&lt;/h3&gt;
-&lt;h4 id=&#34;python的历史&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python的历史&#34;&gt;#&lt;/a&gt; Python 的历史&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;1989 年圣诞节：Guido von Rossum 开始写 Python 语言的编译器。&lt;/li&gt;
-&lt;li&gt;1991 年 2 月：第一个 Python 编译器（同时也是解释器）诞生，它是用 C 语言实现的（后面），可以调用 C 语言的库函数。在最早的版本中，Python 已经提供了对 “类”，“函数”，“异常处理” 等构造块的支持，还有对列表、字典等核心数据类型，同时支持以模块为基础来构造应用程序。&lt;/li&gt;
-&lt;li&gt;1994 年 1 月：Python 1.0 正式发布。&lt;/li&gt;
-&lt;li&gt;2000 年 10 月 16 日：Python 2.0 发布，增加了完整的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvJUU1JTlFJTgzJUU1JTlDJUJFJUU1JTlCJTlFJUU2JTk0JUI2XyglRTglQTglODglRTclQUUlOTclRTYlQTklOUYlRTclQTclOTElRTUlQUQlQjgp&#34;&gt;垃圾回收&lt;/span&gt;，提供了对&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvVW5pY29kZQ==&#34;&gt; Unicode&lt;/span&gt; 的支持。与此同时，Python 的整个开发过程更加透明，社区对开发进度的影响逐渐扩大，生态圈开始慢慢形成。&lt;/li&gt;
-&lt;li&gt;2008 年 12 月 3 日：Python 3.0 发布，它并不完全兼容之前的 Python 代码，不过因为目前还有不少公司在项目和运维中使用 Python 2.x 版本，所以 Python 3.x 的很多新特性后来也被移植到 Python 2.6/2.7 版本中。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;目前我们使用的 Python 3.7.x 的版本是在 2018 年发布的，Python 的版本号分为三段，形如 A.B.C。其中 A 表示大版本号，一般当整体重写，或出现不向后兼容的改变时，增加 A；B 表示功能更新，出现新功能时增加 B；C 表示小的改动（例如：修复了某个 Bug），只要有修改就增加 C。如果对 Python 的历史感兴趣，可以阅读名为&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5jbmJsb2dzLmNvbS92YW1laS9hcmNoaXZlLzIwMTMvMDIvMDYvMjg5MjYyOC5odG1s&#34;&gt;《Python 简史》&lt;/span&gt;的网络文章。&lt;/p&gt;
-&lt;h4 id=&#34;python的优缺点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python的优缺点&#34;&gt;#&lt;/a&gt; Python 的优缺点&lt;/h4&gt;
-&lt;p&gt;Python 的优点很多，简单的可以总结为以下几点。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;简单明了，学习曲线低，比很多编程语言都容易上手。&lt;/li&gt;
-&lt;li&gt;开放源代码，拥有强大的社区和生态圈，尤其是在数据分析和机器学习领域。&lt;/li&gt;
-&lt;li&gt;解释型语言，天生具有平台可移植性，代码可以工作于不同的操作系统。&lt;/li&gt;
-&lt;li&gt;对两种主流的编程范式（面向对象编程和函数式编程）都提供了支持。&lt;/li&gt;
-&lt;li&gt;代码规范程度高，可读性强，适合有代码洁癖和强迫症的人群。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Python 的缺点主要集中在以下几点。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;执行效率稍低，对执行效率要求高的部分可以由其他语言（如：C、C++）编写。&lt;/li&gt;
-&lt;li&gt;代码无法加密，但是现在很多公司都不销售卖软件而是销售服务，这个问题会被弱化。&lt;/li&gt;
-&lt;li&gt;在开发时可以选择的框架太多（如 Web 框架就有 100 多个），有选择的地方就有错误。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;python的应用领域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python的应用领域&#34;&gt;#&lt;/a&gt; Python 的应用领域&lt;/h4&gt;
-&lt;p&gt;目前 Python 在 Web 应用后端开发、云基础设施建设、DevOps、网络数据采集（爬虫）、自动化测试、数据分析、机器学习等领域都有着广泛的应用。&lt;/p&gt;
-&lt;h3 id=&#34;安装python解释器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装python解释器&#34;&gt;#&lt;/a&gt; 安装 Python 解释器&lt;/h3&gt;
-&lt;p&gt;想要开始 Python 编程之旅，首先得在自己使用的计算机上安装 Python 解释器环境，下面将以安装官方的 Python 解释器为例，讲解如何在不同的操作系统上安装 Python 环境。官方的 Python 解释器是用 C 语言实现的，也是使用最为广泛的 Python 解释器，通常称之为 CPython。除此之外，Python 解释器还有 Java 语言实现的 Jython、C# 语言实现的 IronPython 以及 PyPy、Brython、Pyston 等版本，有兴趣的读者可以自行了解。&lt;/p&gt;
-&lt;h4 id=&#34;windows环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows环境&#34;&gt;#&lt;/a&gt; Windows 环境&lt;/h4&gt;
-&lt;p&gt;可以在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucHl0aG9uLm9yZw==&#34;&gt; Python 官方网站&lt;/span&gt;下载到 Python 的 Windows 安装程序（exe 文件），需要注意的是如果在 Windows 7 环境下安装 Python 3.x，需要先安装 Service Pack 1 补丁包（可以通过一些工具软件自动安装系统补丁的功能来安装），安装过程建议勾选 “Add Python 3.x to PATH”（将 Python 3.x 添加到 PATH 环境变量）并选择自定义安装，在设置 “Optional Features” 界面最好将 “pip”、“tcl/tk”、“Python test suite” 等项全部勾选上。强烈建议选择自定义的安装路径并保证路径中没有中文。安装完成会看到 “Setup was successful” 的提示。如果稍后运行 Python 程序时，出现因为缺失一些动态链接库文件而导致 Python 解释器无法工作的问题，可以按照下面的方法加以解决。&lt;/p&gt;
-&lt;p&gt;如果系统显示 api-ms-win-crt*.dll 文件缺失，可以参照&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8zMjA4NzEzNQ==&#34;&gt;《api-ms-win-crt*.dll 缺失原因分析和解决方法》&lt;/span&gt;一文讲解的方法进行处理或者直接在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS96aC1jbi9kb3dubG9hZC9kZXRhaWxzLmFzcHg/aWQ9NDgxNDU=&#34;&gt;微软官网&lt;/span&gt;下载 Visual C++ Redistributable for Visual Studio 2015 文件进行修复；如果是因为更新 Windows 的 DirectX 之后导致某些动态链接库文件缺失问题，可以下载一个&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kbC5wY29ubGluZS5jb20uY24vZG93bmxvYWQvMzYwMDc0LTEuaHRtbA==&#34;&gt; DirectX 修复工具&lt;/span&gt;进行修复。&lt;/p&gt;
-&lt;h4 id=&#34;linux环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux环境&#34;&gt;#&lt;/a&gt; Linux 环境&lt;/h4&gt;
-&lt;p&gt;Linux 环境自带了 Python 2.x 版本，但是如果要更新到 3.x 的版本，可以在&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucHl0aG9uLm9yZw==&#34;&gt; Python 的官方网站&lt;/span&gt;下载 Python 的源代码并通过源代码构建安装的方式进行安装，具体的步骤如下所示（以 CentOS 为例）。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;安装依赖库（因为没有这些依赖库可能在源代码构件安装时因为缺失底层依赖库而失败）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;yum -y install wget gcc zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;下载 Python 源代码并解压缩到指定目录。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;wget https://www.python.org/ftp/python/3.7.6/Python-3.7.6.tar.xz
-xz -d Python-3.7.6.tar.xz
-tar -xvf Python-3.7.6.tar
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;切换至 Python 源代码目录并执行下面的命令进行配置和安装。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;cd Python-3.7.6
-./configure --prefix=/usr/local/python37 --enable-optimizations
-make &amp;amp;&amp;amp; make install
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;修改用户主目录下名为.bash_profile 的文件，配置 PATH 环境变量并使其生效。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;cd ~
-vim .bash_profile
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;# ... 此处省略上面的代码 ...
-
-export PATH=$PATH:/usr/local/python37/bin
-
-# ... 此处省略下面的代码 ...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;激活环境变量。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;source .bash_profile
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;macos环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#macos环境&#34;&gt;#&lt;/a&gt; macOS 环境&lt;/h4&gt;
-&lt;p&gt;macOS 也自带了 Python 2.x 版本，可以通过&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucHl0aG9uLm9yZw==&#34;&gt; Python 的官方网站&lt;/span&gt;提供的安装文件（pkg 文件）安装 Python 3.x 的版本。默认安装完成后，可以通过在终端执行 &lt;code&gt;python&lt;/code&gt;  命令来启动 2.x 版本的 Python 解释器，启动 3.x 版本的 Python 解释器需要执行 &lt;code&gt;python3&lt;/code&gt;  命令。&lt;/p&gt;
-&lt;h3 id=&#34;运行python程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运行python程序&#34;&gt;#&lt;/a&gt; 运行 Python 程序&lt;/h3&gt;
-&lt;h4 id=&#34;确认python的版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#确认python的版本&#34;&gt;#&lt;/a&gt; 确认 Python 的版本&lt;/h4&gt;
-&lt;p&gt;可以 Windows 的命令行提示符中键入下面的命令。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;python --version
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;在 Linux 或 macOS 系统的终端中键入下面的命令。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;python3 --version
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;当然也可以先输入 &lt;code&gt;python&lt;/code&gt;  或 &lt;code&gt;python3&lt;/code&gt;  进入交互式环境，再执行以下的代码检查 Python 的版本。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import sys
-
-print(sys.version_info)
-print(sys.version)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;编写python源代码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#编写python源代码&#34;&gt;#&lt;/a&gt; 编写 Python 源代码&lt;/h4&gt;
-&lt;p&gt;可以用文本编辑工具（推荐使用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuc3VibGltZXRleHQuY29tLw==&#34;&gt; Sublime&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20v&#34;&gt;Visual Studio Code&lt;/span&gt; 等高级文本编辑工具）编写 Python 源代码并用 py 作为后缀名保存该文件，代码内容如下所示。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;print(&#39;hello, world!&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;运行程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运行程序&#34;&gt;#&lt;/a&gt; 运行程序&lt;/h4&gt;
-&lt;p&gt;切换到源代码所在的目录并执行下面的命令，看看屏幕上是否输出了 &amp;quot;hello, world!&amp;quot;。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;python hello.py
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;或&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;python3 hello.py
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;代码中的注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码中的注释&#34;&gt;#&lt;/a&gt; 代码中的注释&lt;/h4&gt;
-&lt;p&gt;注释是编程语言的一个重要组成部分，用于在源代码中解释代码的作用从而增强程序的可读性和可维护性，当然也可以将源代码中不需要参与运行的代码段通过注释来去掉，这一点在调试程序的时候经常用到。注释在随源代码进入预处理器或编译时会被移除，不会在目标代码中保留也不会影响程序的执行结果。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;单行注释 - 以 #和空格开头的部分&lt;/li&gt;
-&lt;li&gt;多行注释 - 三个引号开头，三个引号结尾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
-第一个Python程序 - hello, world!
-向伟大的Dennis M. Ritchie先生致敬
-
-Version: 0.1
-Author: 骆昊
-&amp;quot;&amp;quot;&amp;quot;
-print(&#39;hello, world!&#39;)
-# print(&amp;quot;你好, 世界！&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;python开发工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python开发工具&#34;&gt;#&lt;/a&gt; Python 开发工具&lt;/h3&gt;
-&lt;h4 id=&#34;idle-自带的集成开发工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#idle-自带的集成开发工具&#34;&gt;#&lt;/a&gt; IDLE - 自带的集成开发工具&lt;/h4&gt;
-&lt;p&gt;IDLE 是安装 Python 环境时自带的集成开发工具，如下图所示。但是由于 IDLE 的用户体验并不是那么好所以很少在实际开发中被采用。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;./res/python-idle.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;ipython-更好的交互式编程工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ipython-更好的交互式编程工具&#34;&gt;#&lt;/a&gt; IPython - 更好的交互式编程工具&lt;/h4&gt;
-&lt;p&gt;IPython 是一种基于 Python 的交互式解释器。相较于原生的 Python 交互式环境，IPython 提供了更为强大的编辑和交互功能。可以通过 Python 的包管理工具 pip 安装 IPython，具体的操作如下所示。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;pip install ipython
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;或&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;pip3 install ipython
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;安装成功后，可以通过下面的 ipython 命令启动 IPython，如下图所示。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;./res/python-ipython.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h4 id=&#34;sublime-text-高级文本编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sublime-text-高级文本编辑器&#34;&gt;#&lt;/a&gt; Sublime Text - 高级文本编辑器&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;./res/python-sublime.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;首先可以通过&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuc3VibGltZXRleHQuY29tLw==&#34;&gt;官方网站&lt;/span&gt;下载安装程序安装 Sublime Text 3 或 Sublime Text 2。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安装包管理工具。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;通过快捷键 Ctrl+` 或者在 View 菜单中选择 Show Console 打开控制台，输入下面的代码。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Sublime 3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import  urllib.request,os;pf=&#39;Package Control.sublime-package&#39;;ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),&#39;wb&#39;).write(urllib.request.urlopen(&#39;http://sublime.wbond.net/&#39;+pf.replace(&#39; &#39;,&#39;%20&#39;)).read())
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Sublime 2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import  urllib2,os;pf=&#39;Package Control.sublime-package&#39;;ipp=sublime.installed_packages_path();os.makedirs(ipp)ifnotos.path.exists(ipp)elseNone;urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));open(os.path.join(ipp,pf),&#39;wb&#39;).write(urllib2.urlopen(&#39;http://sublime.wbond.net/&#39;+pf.replace(&#39; &#39;,&#39;%20&#39;)).read());print(&#39;Please restart Sublime Text to finish installation&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;在浏览器中输入  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdWJsaW1lLndib25kLm5ldC9QYWNrYWdlJTIwQ29udHJvbC5zdWJsaW1lLXBhY2thZ2U=&#34;&gt;https://sublime.wbond.net/Package Control.sublime-package&lt;/span&gt; 下载包管理工具的安装包，并找到安装 Sublime 目录下名为 &amp;quot;Installed Packages&amp;quot; 的目录，把刚才下载的文件放到这个文件加下，然后重启 Sublime Text 就搞定了。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安装插件。通过 Preference 菜单的 Package Control 或快捷键 Ctrl+Shift+P 打开命令面板，在面板中输入 Install Package 就可以找到安装插件的工具，然后再查找需要的插件。我们推荐大家安装以下几个插件：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SublimeCodeIntel - 代码自动补全工具插件。&lt;/li&gt;
-&lt;li&gt;Emmet - 前端开发代码模板插件。&lt;/li&gt;
-&lt;li&gt;Git - 版本控制工具插件。&lt;/li&gt;
-&lt;li&gt;Python PEP8 Autoformat - PEP8 规范自动格式化插件。&lt;/li&gt;
-&lt;li&gt;ConvertToUTF8 - 将本地编码转换为 UTF-8。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：事实上&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20v&#34;&gt; Visual Studio Code&lt;/span&gt; 可能是更好的选择，它不用花钱并提供了更为完整和强大的功能，有兴趣的读者可以自行研究。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;pycharm-python开发神器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pycharm-python开发神器&#34;&gt;#&lt;/a&gt; PyCharm - Python 开发神器&lt;/h4&gt;
-&lt;p&gt;PyCharm 的安装、配置和使用在&lt;a href=&#34;../%E7%8E%A9%E8%BD%ACPyCharm.md&#34;&gt;《玩转 PyCharm》&lt;/a&gt;进行了介绍，有兴趣的读者可以选择阅读。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;./res/python-pycharm.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;练习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习&#34;&gt;#&lt;/a&gt; 练习&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;在 Python 交互式环境中输入下面的代码并查看结果，请尝试将看到的内容翻译成中文。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import this
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：输入上面的代码，在 Python 的交互式环境中可以看到 Tim Peter 撰写的&lt;a href=&#34;../Python%E4%B9%8B%E7%A6%85.md&#34;&gt; “Python 之禅”&lt;/a&gt;，里面讲述的道理不仅仅适用于 Python，也适用于其他编程语言。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;学习使用 turtle 在屏幕上绘制图形。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;：turtle 是 Python 内置的一个非常有趣的模块，特别适合对计算机程序设计进行初体验的小伙伴，它最早是 Logo 语言的一部分，Logo 语言是 Wally Feurzig 和 Seymour Papert 在 1966 发明的编程语言。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import turtle
-
-turtle.pensize(4)
-turtle.pencolor(&#39;red&#39;)
-
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-
-turtle.mainloop()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：本章提供的代码中还有画国旗和画小猪佩奇的代码，有兴趣的读者请自行研究。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-        <category term="Python" scheme="https://lxyovo.top/tags/Python/" />
-        <category term="笔记" scheme="https://lxyovo.top/tags/%E7%AC%94%E8%AE%B0/" />
-        <updated>2021-07-15T08:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://lxyovo.top/2020-08-13-special</id>
-        <title>Step.4 主题特殊功能</title>
-        <link rel="alternate" href="https://lxyovo.top/2020-08-13-special"/>
-        <content type="html">&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;行高亮&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;参考链接&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;java&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;util&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 输入 Scan 之后，按下键盘 Alt + “/” 键，Eclipse 下自动补全。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34; world.&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <updated>2020-08-13T13:45:48.000Z</updated>
+        <category term="Foo" scheme="https://lxyovo.top/tags/Foo/" />
+        <category term="Bar" scheme="https://lxyovo.top/tags/Bar/" />
+        <updated>2018-07-24T15:31:06.000Z</updated>
     </entry>
 </feed>
